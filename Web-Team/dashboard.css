@@ -1,0 +1,36 @@
+h2.h1-responsive.font-weight-bold.text-center.my-5{
+    padding-top:18px;
+}
+h3.offset-top-7.font-weight-regular.wow.fadeIn{
+    text-align:center;
+    color:#0accbe;
+}
+form{
+    margin-left:660px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+@media screen and (max-width: 768px) {
+    img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 312px;
+}
+form{
+    margin-left:312px;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-left: 288px;
+    padding-top: 50px;
+}
+    
+}
+select{
+    display:none;
+}

@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.section-checkout {
+  padding: 30px 0;
+}
+.lottie-animate {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 991px) {
+  .lottie-animate {
+    width: 345px;
+    height: 345px;
+  }
+}
+.error {
+  color: red;
+  border-color: red;
+}
+.box-custom-4-aside-content .animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+.row-c {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.col-40 {
+  -ms-flex: 40%;
+  flex: 40%;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 .col-40 {
+  padding: 0 10px;
+}
+
+.check-1 {
+  background-color: none;
+  padding: 18px 13px 13px 18px;
+  /*border: 1px solid lightgrey;*/
+  border-radius: 3px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+}
+.check {
+  background-color: none;
+  padding: 18px 13px 13px 18px;
+  /*border: 1px solid lightgrey;*/
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.col-40 input[type="text"] {
+  width: 70%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0accbe;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border-bottom: solid 1px #999;
+  margin-bottom: 15px;
+  height: 32px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.col-40 input[type="number"] {
+  width: 70%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0accbe;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border-bottom: solid 1px #999;
+  margin-bottom: 15px;
+  height: 32px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+input[type="text"] {
+  /*width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-bottom: solid 2px #999;
+  border: 1px solid rgb(130, 26, 26);
+  border-radius: 1px;*/
+  width: 85%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0accbe;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border-bottom: solid 1px #999;
+  margin-bottom: 15px;
+  height: 32px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+input[type="number"] {
+  /*width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-bottom: solid 2px #999;
+  border: 1px solid rgb(130, 26, 26);
+  border-radius: 1px;*/
+  width: 85%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0accbe;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border-bottom: solid 1px #999;
+  margin-bottom: 15px;
+  height: 32px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.l-check {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #0accbe;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 60%;
+  /* border-radius: 3px; */
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+}
+.btn_place {
+  background-color: #0accbe;
+  color: white;
+  padding: 12px;
+  margin: 20px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+}
+.btn_place:hover {
+  box-shadow: 0 1px 20px #0accbe;
+  background-color: white;
+  border: 1px solid #0accbe;
+  color: #0accbe;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid #0accbe;
+  color: #0accbe;
+}
+
+.a-check {
+  color: #2196f3;
+}
+
+.hr-check {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns 
+    stack on top of each other instead of next to each other (also change the direction 
+    - make the "cart" column go on top) 
+*/
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-40 {
+    -ms-flex: 70%;
+    flex: 70%;
+    margin-top: 30px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+}
