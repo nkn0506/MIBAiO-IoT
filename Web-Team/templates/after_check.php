@@ -20,7 +20,7 @@ function smtp_mailer($to)
     $mail->IsHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Username = "webdevelopement1234@gmail.com";
-    $mail->Password = "ABCDE12345";
+    $mail->Password = "**********";
     $mail->SetFrom("webdevelopement1234@gmail.com");
     $mail->Subject = "Order Confirmation";
     $mail->MsgHTML($message);
